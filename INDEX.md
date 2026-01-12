@@ -33,3 +33,120 @@
 - [Events](utilities/events.md)
 - [Async](utilities/async.md)
 - [URI & Buffer](utilities/uri-buffer.md)
+
+---
+
+## Appendix: Module Categories
+
+```
+risotron/
+│
+├── Layer 1: CORE
+│   │
+│   ├── Core Utilities (12 files)
+│   │   ├── Primitives
+│   │   ├── Functional
+│   │   ├── Lifecycle
+│   │   ├── Events
+│   │   ├── Async
+│   │   ├── Data Structures (URI, Buffer, Diff)
+│   │   ├── Icons
+│   │   ├── IPC
+│   │   └── Aggregated
+│   │
+│   ├── DOM & Browser (3 files)
+│   │   ├── DOM Utilities
+│   │   ├── Keyboard & Mouse
+│   │   └── Aggregated
+│   │
+│   ├── UI Components (34 files)
+│   │   ├── Form Controls (Button, Toggle, InputBox, SelectBox, Radio, FindInput, ThemeToggle)
+│   │   ├── Layout (Grid, SplitView, Sash, Scrollbar, Resizable, Centered)
+│   │   ├── Data Display (List, Table, Tree, IconLabel, KeybindingLabel, HighlightedLabel)
+│   │   ├── Navigation (Menu, Toolbar, ActionBar, Breadcrumbs, Dropdown)
+│   │   ├── Overlays (ContextView, Dialog, Hover)
+│   │   ├── Feedback (ProgressBar, CountBadge, SeverityIcon)
+│   │   ├── Accessibility (Aria)
+│   │   ├── Misc (DnD, MouseCursor)
+│   │   └── Aggregated
+│   │
+│   ├── Application Services (11 files)
+│   │   ├── Dependency Injection
+│   │   ├── Commands
+│   │   ├── Configuration
+│   │   ├── Storage
+│   │   ├── Lifecycle
+│   │   ├── Logging
+│   │   ├── IPC
+│   │   ├── Window
+│   │   └── Aggregated
+│   │
+│   ├── UI Services (21 files)
+│   │   ├── Notifications
+│   │   ├── Dialogs
+│   │   ├── Quick Input
+│   │   ├── Progress
+│   │   ├── Hover
+│   │   ├── Status Bar
+│   │   ├── Context View
+│   │   ├── Menubar
+│   │   ├── Theming
+│   │   └── Theme Colors
+│   │
+│   ├── System Services (5 files)
+│   │   ├── Clipboard
+│   │   ├── Files
+│   │   └── Environment
+│   │
+│   ├── Editor Services (8 files)
+│   │   ├── Context Keys
+│   │   ├── Keybindings
+│   │   └── Undo/Redo
+│   │
+│   ├── Workspace (2 files)
+│   │   └── Workspace Core
+│   │
+│   └── Editor (1 file)
+│       └── Model
+│
+├── Layer 2: EXTENSION SYSTEM
+│   │
+│   └── Extensions (15 files)
+│       ├── Extension Types
+│       ├── Extension Management
+│       │   ├── Common
+│       │   └── Browser
+│       ├── Extension Runtime
+│       ├── Extension Host
+│       ├── Extension Browser Host
+│       ├── Extension API
+│       │   ├── Common
+│       │   └── Worker
+│       └── Extension UI
+│           ├── Types
+│           └── Components
+│
+├── Layer 3: PARTS LIBRARY
+│   │
+│   └── Parts (3 files)
+│       ├── Notifications
+│       ├── Progress
+│       └── Aggregated
+│
+├── Layer 4+: WORKBENCH SHELL
+│   │
+│   └── Workbench (4 files)
+│       ├── Root
+│       ├── Common
+│       ├── Browser
+│       └── Services
+│
+└── Other
+    │
+    ├── Entry Points (2 files)
+    │   ├── Main
+    │   └── Renderer
+    │
+    └── Sample Extensions (1 file)
+        └── Test Data
+```
